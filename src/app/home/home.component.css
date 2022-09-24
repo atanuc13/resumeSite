@@ -1,0 +1,86 @@
+  marquee {
+      font-size: 25px;
+      font-weight: 800;
+      color: #eb1a1a;
+      font-family: sans-serif;
+  }
+  
+  .image {
+      display: block;
+      border-radius: 5%;
+      border-style: solid;
+      width: 30%;
+      height: 50%;
+      float: left;
+      margin-top: 10px;
+      margin-left: 10px;
+  }
+  
+  .main {
+      margin-left: 15%;
+      padding: 3% 3%;
+      height: 490px;
+      background: white;
+      color: rgb(12, 67, 119);
+  }
+  
+  .maincontent {
+      font-size: 18px;
+      margin-left: 20px;
+      margin-top: 2%;
+      margin-bottom: 2%;
+  }
+  
+  .socail-div {
+      display: flex;
+  }
+  
+  .social-icons {
+      margin: auto;
+  }
+  
+  .icon {
+      height: 32px;
+      width: 32px;
+      margin-top: 3px;
+      margin-left: 10px;
+  }
+  
+  .button {
+      display: inline-block;
+      border-radius: 4px;
+      background-color: rgb(12, 67, 119);
+      border: none;
+      color: #FFFFFF;
+      text-align: center;
+      font-size: 18px;
+      padding: 10px;
+      transition: all 0.5s;
+      cursor: pointer;
+      margin: 5px;
+  }
+  
+  .button span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+  }
+  
+  .button span:after {
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+  }
+  
+  .button:hover span {
+      padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+      opacity: 1;
+      right: 0;
+  }

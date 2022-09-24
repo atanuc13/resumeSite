@@ -1,0 +1,14 @@
+.main {
+    margin-left: 15%;
+    padding: 3% 3%;
+    height: 490px;
+    background: white;
+    color:rgb(12, 67, 119);
+  }
+
+  .maincontent {
+    font-size: 18px;
+    margin-left: 20px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
